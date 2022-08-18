@@ -34,13 +34,14 @@ export default function Home() {
 
       </div>
       <div className='destination'>
-        <div className='destination__destination-title' >
+        <div className='destination__container' >
+        <div className='destination__container__destination-title' >
           <h3>Popular Destinations</h3>
           <p>From Religious Places to splendours. Visit the most popular places.</p>
         </div>
-        <div className='destination__arrows-row' >
+        <div className='destination__container__arrows-row' >
         </div>
-        <div className='destination__destination-items' >
+        <div className='destination__container__destination-items' >
           <DestinationCard title={'01'} location={'Istanbul,Turkey'} image={LocationImage} />
           <DestinationCard title={'02'} location={'Istanbul,Turkey'} image={LocationImage} />
           <DestinationCard title={'03'} location={'Istanbul,Turkey'} image={LocationImage} />
@@ -50,7 +51,12 @@ export default function Home() {
         </div>
 
       </div>
+        </div>
+     
       <div className='speacial-offers'>
+        <div className='special-offers__container' >
+          
+        </div>
 
       </div>
 
